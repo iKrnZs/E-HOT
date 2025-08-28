@@ -1,2 +1,0 @@
-# E-HOT
-SANDBOXELS
