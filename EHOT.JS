@@ -15,7 +15,7 @@ elements.e_heater = {
         "HT:4|XX|HT:4",
         "XX|HT:4|XX",
     ],
-    name: "E-Heater",
+    name: "Eletrônico - Aquecedor",
 };
 
 // E-SuperHeater
@@ -31,7 +31,7 @@ elements.e_SuperHeater = {
         "HT:12|XX|HT:12",
         "XX|HT:12|XX",
     ],
-    name: "E-SuperHeater",
+    name: "Eletrônico - SuperAquecedor",
 };
 
 // Ajustable-E-Heater
@@ -44,7 +44,7 @@ elements.ajustableHeater = {
     state: "solid",
     conduct: 1,
     movable: false,
-    name: "Ajustable-E-Heater",
+    name: "Eletrônico - Aquecedor Ajustável",
     onSelect: function(pixel){
         let t = parseInt(prompt("Enter the temperature you want it set to.", (setTemp || undefined)));
         if (!isNaN(t)) { setTemp = t; }
@@ -81,7 +81,7 @@ elements.e_cooler = {
         "CL:4|XX|CL:4",
         "XX|CL:4|XX",
     ],
-    name: "E-Cooler",
+    name: "Eletrônico - Resfriador",
 };
 
 // E-Freezer
@@ -98,5 +98,5 @@ elements.e_freezer = {
         "CL:12|XX|CL:12",
         "XX|CL:12|XX",
     ],
-    name: "E-Freezer",
+    name: "Eletrônico - Congelador",
 };
